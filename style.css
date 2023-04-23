@@ -9,7 +9,7 @@ body {
     font-weight: bolder;
 }
 
-img {
+.logo-img {
     width: 100px;
     cursor: pointer;
 }
@@ -36,7 +36,6 @@ ul {
     gap: 20px;
 }
 
-
 li:hover {
     transform: translateY(5px);
 }
@@ -61,5 +60,13 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+.main-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
