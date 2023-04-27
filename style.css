@@ -132,3 +132,86 @@ h3 {
     display: block;
 }
 
+.p-products {
+
+}
+
+.buy-1 {
+    padding: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 63%;
+    border: none;
+    background-color: #000000;
+    color: white;
+    outline: none;
+}
+
+.buy-1:hover {
+    background-color: #262A56;
+    transition-property: initial;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+
+.buy-2 {
+    padding: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 63%;
+    border: none;
+    background-color: #2B3467;
+    color: white;
+    outline: none;
+}
+
+.buy-2:hover {
+    background-color: #EB455F;
+    transition-property: initial;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+
+.buy-3 {
+    padding: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 63%;
+    border: none;
+    background-color: #8B1874;
+    color: white;
+    outline: none;
+}
+
+.buy-3:hover {
+    background-color: #FC4F00;
+    transition-property: initial;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+
+.buy-4 {
+    padding: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 63%;
+    border: none;
+    background-color: #0F0E0E;
+    color: white;
+    outline: none;
+}
+
+.buy-4:hover {
+    background-color: #541212;
+    transition-property: initial;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
