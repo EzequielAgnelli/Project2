@@ -16,3 +16,12 @@ Como pueden ver, en este 2do intento, el codigo esta mas limpio, la barra de nav
 
 Actualmente estoy estudiando en NUCBA, Full Stack Web Developer (Todavia estoy aprendiendo a usar GitHub pero supongo que la gente puede mandarme mensajes XD ni idea)
 
+------
+04-26:
+I finally made some progress after like 1 week. I kinda learned how to make cards for the "products" and how to separate them! It was hard but i finally kinda learned it. Now I just gotta practice in other projects so it becomes a solid new learned thing!
+------
+26-04:
+Finalmente progrese un poco despues de como 1 semana. Medio como que aprendi a hacer cartas de productos (como sus propias secciones) y como separar las imagenes de cada carta! Fue bastante dificil pero finalmente como que estoy aprendiendo a hacerlo. Ahora solo tengo que practicar en otros proyectos asi se convierte en un aprendizaje solido!
+
+contact email: ezequielagnelli@gmail.com
+email de contacto: ezequielagnelli@gmail.com
