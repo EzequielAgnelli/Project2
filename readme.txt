@@ -23,5 +23,12 @@ I finally made some progress after like 1 week. I kinda learned how to make card
 26-04:
 Finalmente progrese un poco despues de como 1 semana. Medio como que aprendi a hacer cartas de productos (como sus propias secciones) y como separar las imagenes de cada carta! Fue bastante dificil pero finalmente como que estoy aprendiendo a hacerlo. Ahora solo tengo que practicar en otros proyectos asi se convierte en un aprendizaje solido!
 
+------
+04-28
+I did a commit again. I didn't do much. I learned thanks to my class to make a cleaner code so i just cleaned a bit the code so it looks better.
+------
+28-84
+Hice otro commit. No hice mucho. Gracias a mi clase aprendi a hacer un codigo mas limpio asi que limpie un poco el codigo para que se vea mejor.
+
 contact email: ezequielagnelli@gmail.com
 email de contacto: ezequielagnelli@gmail.com
