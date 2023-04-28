@@ -5,26 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Clothing</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mulish:wght@200&family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
     <header>
-        <section>
-            <nav>
-                <img src="./images/logo.jpg" alt="logo" class="logo-img">
-                <ul class="nav__links">
-                    <li class="nav__links"><a href="#">Mi Cuenta</a></li>
-                    <li class="nav__links"><a href="#">Productos</a></li>
-                    <li class="nav__links"><a href="#">Ayuda</a></li>
-                    <li class="nav__links"><a href="#">Contacto</a></li>
+        <img src="./images/logo.jpg" alt="logo" class="logo-img">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#">Mi Cuenta</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
-                <a href="https://www.instagram.com/joako.rip/" target="_blank" class="button-Instagram"><button>Instagram</button></a>
             </nav>
-        </section>
+            <a href="https://www.instagram.com/joako.rip/" target="_blank" class="button-Instagram"><button>Instagram</button></a>
+        </header>
 
+        <main>
         <section class="main-image">
             <img src="./images/test6.jpg" alt="">
         </section>
@@ -32,19 +31,21 @@
         <section id="section2">
             <h1>Visita algunos de nuestros productos</h1>
         </section>
-
-        <div class="content-images-products">
+        
+            <div class="content-images-products">
             <div class="images-products">
                 <img class="product-img__user" src="./images/test4.jpg">
+                <div class="product-img__info">
                 <h3>Remera Jack n' Burger</h3>
                 <h4>$4000</h4>
-                <p class="p-products">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
                 <ul>
                     <li><i class="fa fa-star checked"></i></li>
                     <li><i class="fa fa-star checked"></i></li>
                     <li><i class="fa fa-star checked"></i></li>
                     <li><i class="fa fa-star"></i></li>
-                </ul>
+                </ul> 
+                </div>
                 <button class="buy-1">Comprar Ahora</button>
             </div>
 
@@ -52,7 +53,7 @@
                 <img class="product-img__user" src="./images/test5.jpg">
                 <h3>Remera Bat</h3>
                 <h4>$3000</h4>
-                <p class="p-products">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
                 <ul>
                     <li><i class="fa fa-star checked"></i></li>
                     <li><i class="fa fa-star checked"></i></li>
@@ -66,7 +67,7 @@
                 <img class="product-img__user" src="./images/test8.jpg">
                 <h3>Remera Cat bad Smile</h3>
                 <h4>$6500</h4>
-                <p class="p-products">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
                 <ul>
                     <li><i class="fa fa-star checked"></i></li>
                     <li><i class="fa fa-star checked"></i></li>
@@ -80,7 +81,7 @@
                 <img class="product-img__user" src="./images/test7.jpg">
                 <h3>Remera Broken Heart</h3>
                 <h4>$3500</h4>
-                <p class="p-products">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
                 <ul>
                     <li><i class="fa fa-star checked"></i></li>
                     <li><i class="fa fa-star checked"></i></li>
@@ -90,7 +91,6 @@
                 <button class="buy-4">Comprar Ahora</button>
             </div>
         </div>
-    </header>
-</main>
+    </main>
 </body>
 </html>

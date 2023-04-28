@@ -12,42 +12,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
     font-family: 'Nunito';
     font-weight: bolder;
-    background-color: #f2f2f2;
+    background-color: #272d37;
 }
 
-.logo-img {
-    width: 100px;
-    cursor: pointer;
-}
-
-nav {
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #131415;
     padding: 1rem;
+    height: 80px;
+    width: 100%;
 }
 
-ul a {
+.navbar,
+.nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links a {
     color: white;
-    text-decoration: none;
     font-size: 20px;
     border-bottom: solid rgba(250, 61, 225, 0.527);
     border-bottom-width: 1px;
 }
 
+.logo-img {
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+}
+
 ul {
-    list-style-type: none;
     display: flex;
     gap: 40px;
 }
 
-.nav__links li:hover {
+.nav-links li:hover {
     transform: translateY(10px);
 }
 
@@ -58,11 +69,11 @@ ul {
     color: black;
     background-color: rgba(0, 136, 169, 1);
     border: none;
-    box-shadow: 1px 1px 1px rgba(0, 255, 21, 0.699);
+    box-shadow: 1px 1px 1px rgb(116, 194, 218);
 }
 
 .button-Instagram button:hover {
-    background-color: rgba(133, 122, 194, 0.808);
+    background-color: rgb(85, 4, 85);
     transition-property: initial;
     transition-duration: 0.3s;
     transition-delay: 0s;
@@ -87,6 +98,7 @@ ul {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
+    color: #adb9c7;
 }
 
 h3 {
@@ -114,13 +126,13 @@ h3 {
     border-radius: 20px;
     cursor: pointer;
     padding-top: 10px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: .4s;
-    background-color: #f2f2f2;
+    background-color: #272d37;
 }
 
 .images-products:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(255, 255, 255, 0.322);
     transform: translate(0px -8px);
 }
 
@@ -130,10 +142,6 @@ h3 {
     text-align: center;
     margin: 0 auto;
     display: block;
-}
-
-.p-products {
-
 }
 
 .buy-1 {
