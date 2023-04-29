@@ -19,7 +19,6 @@
 body {
     font-family: 'Nunito';
     font-weight: bolder;
-    background-color: #272d37;
 }
 
 header {
@@ -79,7 +78,63 @@ ul {
     transition-delay: 0s;
 }
 
-#section2 {
+main {
+    background-color: #272d37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.card-info h1 {
+    color: #adb9c7;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.card-info p {
+    font-size: 14px;
+    color: #f3f4f6;
+}
+
+.card-info span {
+    font-weight: bolder;
+    font-size: 15px;
+    color: #EB455F;
+}
+
+.card-info a {
+    background-color: #1e50ff;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #000000;
+    display: flex;
+    text-align: center;
+    width: 30%;
+}
+
+.card-info a:hover {
+    transform: translateY(10px);
+}
+
+.section2 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -121,6 +176,7 @@ h3 {
     box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: .4s;
     background-color: #272d37;
+    color: #f3f4f6;
 }
 
 .images-products:hover {
