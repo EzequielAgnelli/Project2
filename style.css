@@ -63,28 +63,20 @@ ul {
 }
 
 .button-Instagram button {
-    padding: 20px;
+    padding: 1rem;
     cursor: pointer;
-    border-radius: 2rem;
+    border-radius: 15px;
     color: black;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(216, 175, 221);
     border: none;
-    box-shadow: 1px 1px 1px rgb(116, 194, 218);
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 .button-Instagram button:hover {
-    background-color: rgb(85, 4, 85);
+    background-color: rgb(224, 132, 224);
     transition-property: initial;
     transition-duration: 0.3s;
     transition-delay: 0s;
-}
-
-.main-image {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
 }
 
 #section2 {
