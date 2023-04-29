@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 45px;
 }
 
 .nav-links a {
@@ -79,7 +79,7 @@ ul {
 }
 
 main {
-    background-color: #272d37;
+    background-color: #02050e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .card-info {
@@ -111,6 +111,7 @@ main {
 .card-info p {
     font-size: 14px;
     color: #f3f4f6;
+    width: 70%;
 }
 
 .card-info span {
@@ -124,7 +125,7 @@ main {
     padding: 15px;
     border-radius: 12px;
     font-size: 14px;
-    color: #000000;
+    color: #f3f4f6;
     display: flex;
     text-align: center;
     width: 30%;
@@ -132,6 +133,71 @@ main {
 
 .card-info a:hover {
     transform: translateY(10px);
+}
+
+.card-monthly {
+    background-color: #272d37;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 70px;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+}
+
+.card-monthly:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(255, 255, 255, 0.322);
+    transform: translate(0px -8px);
+}
+
+.card-monthly img {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.card-monthly-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.card-monthly-top {
+    display: flex;
+    align-items: center;
+    gap: 45px
+}
+
+.card-monthly-top span {
+    padding: 10px;
+    background-color: #1e50ff;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.card-monthly-bottom {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.card-monthly-bottom a {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 2px #64d3ff;
+    font-size: 15px;
+}
+
+.card-monthly-bottom a:hover {
+    transform: translateX(15px);
+}
+
+.card-monthly-bottom span {
+    padding: 10px;
+    background-color: #1e50ff;
+    border-radius: 10px;
+    width: 42%;
+    text-align: center;
 }
 
 .section2 {
