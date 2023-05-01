@@ -32,7 +32,7 @@ header {
 }
 
 .navbar,
-.nav__links {
+.nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,11 +50,6 @@ header {
     width: 100px;
     height: 60px;
     cursor: pointer;
-}
-
-ul {
-    display: flex;
-    gap: 40px;
 }
 
 .nav-links li {
@@ -332,4 +327,45 @@ main {
     transition-property: initial;
     transition-duration: 0.3s;
     transition-delay: 0s;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0e0d0d;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.container h4 {
+    color: sandybrown;
+    font-size: 20px;
+}
+
+.container-links a {
+    color: #ffffff;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.container-links li {
+    transition: all .3s ease;
+}
+
+.container-links li:hover {
+    transform: translateX(20px);
+}
+
+.container-copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
