@@ -57,6 +57,10 @@ ul {
     gap: 40px;
 }
 
+.nav-links li {
+    transition: all .3s ease;
+}
+
 .nav-links li:hover {
     transform: translateY(10px);
 }
@@ -129,6 +133,8 @@ main {
     display: flex;
     text-align: center;
     width: 30%;
+    transition: all .3s ease;
+    display: block;
 }
 
 .card-info a:hover {
@@ -186,6 +192,7 @@ main {
     color: white;
     border-bottom: solid 2px #64d3ff;
     font-size: 15px;
+    transition: all .3s ease;
 }
 
 .card-monthly-bottom a:hover {
