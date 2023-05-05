@@ -20,15 +20,18 @@ body {
     font-family: 'Nunito';
     font-weight: bolder;
 }
-
+                  /* NAVBAR */
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #131415;
     padding: 1rem;
-    height: 80px;
+    height: 70px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .navbar,
@@ -48,7 +51,13 @@ header {
 
 .logo-img {
     width: 100px;
-    height: 60px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -59,24 +68,7 @@ header {
 .nav-links li:hover {
     transform: translateY(10px);
 }
-
-.button-Instagram button {
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 15px;
-    color: black;
-    background-color: rgb(216, 175, 221);
-    border: none;
-    box-shadow: 1px 1px 1px rgb(255, 255, 255);
-}
-
-.button-Instagram button:hover {
-    background-color: rgb(224, 132, 224);
-    transition-property: initial;
-    transition-duration: 0.3s;
-    transition-delay: 0s;
-}
-
+                  /* MAIN */
 main {
     background-color: #02050e;
     display: flex;
@@ -84,8 +76,9 @@ main {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding: 20px;
 }
-
+                  /* CARD TEXT */
 #card {
     display: flex;
     justify-content: center;
@@ -135,7 +128,7 @@ main {
 .card-info a:hover {
     transform: translateY(10px);
 }
-
+                  /* CARD IMAGE */
 .card-monthly {
     background-color: #272d37;
     padding: 20px;
@@ -178,30 +171,31 @@ main {
 
 .card-monthly-bottom {
     display: flex;
-    align-items: center;
-    gap: 120px;
+    gap: 50px
 }
 
-.card-monthly-bottom a {
-    text-decoration: none;
+.btn-cardbottom {
     color: white;
-    border-bottom: solid 2px #64d3ff;
     font-size: 15px;
+    border: none;
+    background-color: #1e50ff;
+    padding: 5px;
+    border-radius: 12px;
     transition: all .3s ease;
 }
 
-.card-monthly-bottom a:hover {
+.card-monthly-bottom button:hover {
     transform: translateX(15px);
 }
 
 .card-monthly-bottom span {
     padding: 10px;
-    background-color: #1e50ff;
+    background-color: #1e4fff5d;
     border-radius: 10px;
     width: 42%;
     text-align: center;
 }
-
+                  /* SECCION H2 CON ANIMACION */
 .section2 {
     display: flex;
     justify-content: center;
@@ -248,7 +242,7 @@ main {
     height: 350px;
     margin: 0 auto;
 }
-
+                  /* BOTONES DE PRODUCTOS, PARA AGREGAR AL CARRITO  */
 .buy-1 {
     padding: 1.2rem;
     margin-top: 20px;
@@ -328,7 +322,7 @@ main {
     transition-duration: 0.3s;
     transition-delay: 0s;
 }
-
+                  /* Footer */
 footer {
     width: 100%;
     display: flex;
@@ -369,3 +363,5 @@ footer {
     justify-content: center;
     margin-top: 20px;
 }
+
+                  /* MENU HAMBURGUESA */

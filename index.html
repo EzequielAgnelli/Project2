@@ -13,6 +13,10 @@
     <header>
         <img src="./images/logo.jpg" alt="logo" class="logo-img">
             <nav class="navbar">
+                <label for="menu-toggle">
+                    <img src="./images/menu.png" alt="menu icon" class="menu-label">
+                </label>
+                <input type="checkbox" id="menu-toggle">
                 <ul class="nav-links">
                     <li><a href="#">Mi Cuenta</a></li>
                     <li><a href="#">Productos</a></li>
@@ -20,9 +24,13 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
-            <a href="#" target="_blank" class="button-Instagram"><button>Instagram</button></a>
-        </header>
+            <label for="cart-toggle" class="cart-label">
+                <img src="./images/shoppingcartwhite.png" alt="shoppingcart" class="cart-img">
+            </label>
 
+            <input type="checkbox" id="cart-toggle">
+        </header>
+                            <!-- Inicio de Pagina -->
         <main>
             <section id="card">
                     <div class="card-info">
@@ -39,21 +47,21 @@
                             <span>$8600</span>
                         </div>
                         <div class="card-monthly-bottom">
-                                <a href="#">Comprar</a>
+                            <button class="btn-cardbottom">Agregar al carrito</button>
                                 <span>130h 23m 10s</span>
                         </div>
                     </div>
             </section>
 
-
+                        <!-- H1 con Movimiento, Keyframes al inicio del css -->
         <section class="section2">
             <h1>Productos Destacados</h1>
         </section>
-
+                                <!-- Seccion Productos - Futuro Carrousel? -->
         <section>
             <div class="content-images-products">
             <div class="images-products">
-                <img src="./images/test4.jpg">
+                <img src="./images/Jack n burger.jpg">
                 <div class="product-img__info">
                 <h3>Remera Jack n' Burger</h3>
                 <h4>$4000</h4>
@@ -94,7 +102,7 @@
         </div>
     </section>
     </main>
-
+                            <!-- Footer -->
     <footer>
         <div class="container">
             <div class="container-links">
