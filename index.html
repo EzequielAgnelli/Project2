@@ -13,9 +13,11 @@
     <header>
         <img src="./images/logo.jpg" alt="logo" class="logo-img">
             <nav class="navbar">
-                <label for="menu-toggle">
+
+            <label for="menu-toggle">
                     <img src="./images/menu.png" alt="menu icon" class="menu-label">
                 </label>
+
                 <input type="checkbox" id="menu-toggle">
                 <ul class="nav-links">
                     <li><a href="#">Mi Cuenta</a></li>
@@ -24,11 +26,28 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
+
             <label for="cart-toggle" class="cart-label">
                 <img src="./images/shoppingcartwhite.png" alt="shoppingcart" class="cart-img">
             </label>
-
             <input type="checkbox" id="cart-toggle">
+
+            <div class="cart">
+                <h2>Tus Productos</h2>
+
+                <div class="cart-item">
+                    <img src="./images/cart-img.png" alt="Jack N' Burger">
+                    <div class="item-info">
+                        <h3 class="item-title">Jack 'n Burger</h3>
+                        <p class="item-bid">Current bid</p>
+                        <span class="item-price">$4000</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+        </div>
+    </div>
         </header>
                             <!-- Inicio de Pagina -->
         <main>
@@ -58,7 +77,7 @@
             <h1>Productos Destacados</h1>
         </section>
                                 <!-- Seccion Productos - Futuro Carrousel? -->
-        <section>
+        <section id="products">
             <div class="content-images-products">
             <div class="images-products">
                 <img src="./images/Jack n burger.jpg">
@@ -100,7 +119,21 @@
             <button class="buy-4">Comprar Ahora</button>
             </div>
         </div>
-    </section>
+        </section>
+
+        <section class="categories">
+            <h2>Visita algunas categorias que te recomendamos</h2>
+            <div class="categories-buttons">
+                <button class="category active">📦Nuevo</button>
+                <button class="category">👘Buzos Populares</button>
+                <button class="category">👕Remeras Populares</button>
+                <button class="category">🧥Camperas Populares</button>
+            </div>
+
+            <div>
+
+            </div>
+        </section>
     </main>
                             <!-- Footer -->
     <footer>

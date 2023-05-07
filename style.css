@@ -1,3 +1,4 @@
+
 @keyframes slideInLeft {
     from {
         transform: translateX(-300px);
@@ -26,7 +27,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #131415;
-    padding: 1rem;
+    padding: 0px 30px 0px 30px;
     height: 70px;
     width: 100%;
     position: fixed;
@@ -39,7 +40,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 45px;
+    transform: perspective();
+}
+
+.nav-links {
+    gap: 30px;
 }
 
 .nav-links a {
@@ -55,9 +60,8 @@ header {
     cursor: pointer;
 }
 
-.cart-img {
-    width: 50px;
-    height: 50px;
+.cart-img { 
+    width: 50px;    
     cursor: pointer;
 }
 
@@ -182,6 +186,7 @@ main {
     padding: 5px;
     border-radius: 12px;
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .card-monthly-bottom button:hover {
@@ -208,8 +213,10 @@ main {
     animation-direction: normal;
     animation-fill-mode: forwards;
     color: #adb9c7;
+    max-width: 1200px;
 }
 
+                  /* IMAGENES DE LOS PRODUCTOS */
 .content-images-products {
     display: flex;  
     flex-wrap: wrap;
@@ -230,6 +237,7 @@ main {
     transition: .4s;
     background-color: #272d37;
     color: #f3f4f6;
+    scroll-snap-align: start;
 }
 
 .images-products:hover {
@@ -241,8 +249,10 @@ main {
     width: 200px;
     height: 350px;
     margin: 0 auto;
+
 }
-                  /* BOTONES DE PRODUCTOS, PARA AGREGAR AL CARRITO  */
+
+                  /* BOTONES DE PRODUCTOS PARA AGREGAR AL CARRITO  */
 .buy-1 {
     padding: 1.2rem;
     margin-top: 20px;
@@ -364,4 +374,108 @@ footer {
     margin-top: 20px;
 }
 
+                   /* CATEGORIAS */
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.categories h2 {
+    color: #adb9c7;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.categories-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.category {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e50ff;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+}
+
+.category .active {
+    background-color: #541212;
+}
+
                   /* MENU HAMBURGUESA */
+
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+    display: none;
+}
+
+.cart {
+    position: absolute;
+    top: 0;
+    padding: 60px 30px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-left: 2px solid plum;
+    background-color: #282b33a1;
+    height: calc(100vh - 65px);
+    overflow-y: scroll;
+    z-index: 2;
+    display: none;
+
+}
+
+#cart-toggle:checked + .cart {
+    display: flex;
+}
+
+.cart::-webkit-scrollbar {
+    display: none;
+}
+
+.cart h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.item-title {
+    color: white;
+    font-size: 24px;
+}
+
+.item-price {
+    color: white;
+    font-size: 20px;
+}
+
+.item-handler {
+    color: white;
+}
+
+.item-handler .up,
+.item-handler .down {
+    background-color: #1e50ff;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.item-quantity {
+    background-color: gray;
+    color: black;
+    padding: 5px; 
+    border: 12px;   
+}
